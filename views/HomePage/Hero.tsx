@@ -14,19 +14,16 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        {/* <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle> */}
-        <Heading>
-          Cross Border <br></br> E-Commerce Made Easy{' '}
-        </Heading>
+        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
+        <Heading>Make your life easier with our SaaS</Heading>
         <Description>
-          As a Seller, you Focus on Brand, Product and Marketing, and Leave Everything Else to Us for Global Selling
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
+          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
         </Description>
         <CustomButtonGroup>
-          <NextLink href="request-quote" passHref>
-            <Button>
-              Request quote <span>&rarr;</span>
-            </Button>
-          </NextLink>
+          <Button onClick={() => setIsModalOpened(true)}>
+            Subscribe to the newsletter <span>&rarr;</span>
+          </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
               Features <span>&rarr;</span>

@@ -2,7 +2,6 @@ import 'swiper/css';
 import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-import '../styles/globals.css';
 
 import { AppProps } from 'next/dist/shared/lib/router/router';
 import dynamic from 'next/dynamic';
@@ -21,7 +20,7 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-  { title: 'About Us', href: '/features' },
+  { title: 'Awesome SaaS Features', href: '/features' },
   { title: 'Pricing', href: '/pricing' },
   { title: 'Contact', href: '/contact' },
   { title: 'Sign up', href: '/sign-up', outlined: true },
