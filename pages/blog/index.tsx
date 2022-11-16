@@ -6,6 +6,8 @@ import Page from 'components/Page';
 import { media } from 'utils/media';
 import { getAllPosts } from 'utils/postsFetcher';
 
+
+
 export default function BlogIndexPage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <Page
