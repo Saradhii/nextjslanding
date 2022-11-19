@@ -23,3 +23,4 @@ export default function useEscClose({ onClose }: UseEscCloseProps) {
     };
   }, [handleUserKeyPress]);
 }
+
