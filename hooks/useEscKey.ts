@@ -1,4 +1,5 @@
 import { useCallback, useEffect } from 'react';
+
 export interface UseEscCloseProps {
   onClose: () => void;
 }
