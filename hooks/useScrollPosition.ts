@@ -1,5 +1,6 @@
 import { useScrollPosition as originalUseScrollPosition } from '@n8tb1t/use-scroll-position';
 
+
 declare type ElementRef = React.MutableRefObject<HTMLElement | undefined>;
 
 type Axis = { x: number; y: number };
