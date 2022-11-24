@@ -4,6 +4,7 @@ import { media } from 'utils/media';
 import Collapse from './Collapse';
 import RichText from './RichText';
 
+
 interface AccordionProps {
   title: string;
   isOpen?: boolean;
