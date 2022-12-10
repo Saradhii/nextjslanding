@@ -9,7 +9,6 @@ interface AccordionProps {
   isOpen?: boolean;
 }
   
-  
 export default function Accordion({ title, isOpen, children }: PropsWithChildren<AccordionProps>) {
   const [hasCollapsed, setHasCollapsed] = useState(!isOpen);
   const isActive = !hasCollapsed;
