@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import Container from 'components/Container';
 import NotFoundIllustration from 'components/NotFoundIllustration';
-
 export default function NotFoundPage() {
   return (
     <Wrapper>
