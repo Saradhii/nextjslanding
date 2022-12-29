@@ -1,5 +1,6 @@
 import React, { Dispatch, PropsWithChildren, SetStateAction, useContext, useState } from 'react';
 
+
 interface NewsletterModalContextProps {
   isModalOpened: boolean;
   setIsModalOpened: Dispatch<SetStateAction<boolean>>;
