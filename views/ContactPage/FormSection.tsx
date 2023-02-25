@@ -6,6 +6,7 @@ import Input from 'components/Input';
 import { media } from 'utils/media';
 import MailSentState from '../../components/MailSentState';
 
+
 interface EmailPayload {
   name: string;
   email: string;
